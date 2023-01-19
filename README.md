@@ -2,6 +2,8 @@
 
 Intro Git Demo
 
+Author: Daniel Chen
+
 - `git clone <URL>`: takes what's on github and does a onetime download to your computer
 - `git status`: tells you what's going on in the repository
 - `git add <FILE>`: add the <FILE>s to the staging area
