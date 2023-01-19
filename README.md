@@ -14,6 +14,8 @@ Intro Git Demo
 - `git pull <where> <what>`: take remote commits on `<what>`, and pull from `<where>`
   - e.g., `git pull origin main`
 
+- `git log --oneline --graph --all`: shows you all your history
+
 ## Branches
 
 - `git branch <name>`: create a branch named <branch> where ever you are (`HEAD`)
@@ -21,3 +23,9 @@ Intro Git Demo
   - `git checkout <name>`: older way to move to branch
 - `git switch -c <name>`: create a branch and move to it in 1 command
   - `git checkout -b <name>`: same thing using `checkout`
+
+### Cleanup process
+
+1. delete branch PR in github
+2. `git fetch --prune`: update references to deleted branches on the remote
+3. `git branch -d <name>`: delete local branch `<name>`
